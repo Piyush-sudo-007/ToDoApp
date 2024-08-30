@@ -1,0 +1,103 @@
+h1::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  content: "";
+  background: url(assets/bg.jpg)center center/cover no-repeat;
+  z-index: -1;
+  opacity: 0.7;
+}
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 80%;
+  margin-top: 50px;
+}
+.head{
+  color: black;
+}
+.box{
+  border-top: 2px solid white;
+  border-radius: 5px;
+  backface-visibility: visible;
+  width: 90%;
+  overflow-y: hidden;
+}
+input{
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+  
+.btn-success{
+  width: 100%
+}
+.btn-danger{
+  width: 100%;
+}
+.container{
+  margin: 20px 0;
+  width: 100%;
+}
+.pi-row{
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+.container-list{
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  width: 98%;
+  padding-left: 9px;
+}
+.picol{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(8, 8, 8);
+}
+.picol2{
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+}
+.piinput{
+  background: none;
+  border: 2px solid black;
+  color: black;
+  font-weight: bolder;
+  outline: none;
+  background-color: rgb(245, 248, 247);
+}
+.piinput:hover{
+  cursor: pointer;
+}
+.delete{
+  margin-bottom: 9px;
+}
+.add{
+  height: 50px;
+}
+.msg{
+  font-size: 50px;
+}
+.col-6{
+  width: 37%;
+}
+.col-4{
+  width: 27%;
+}
+._width_jlppm_1.picol.col {
+  width: 38%;
+}
+._width2_jlppm_7.col.picol2 {
+  width: 16%;
+}
+._width2_jlppm_7.col{
+  width: 16%;
+}
+.main{
+  width: 100%;
+  max-height: 436px;
+  overflow-y: auto;
+}
